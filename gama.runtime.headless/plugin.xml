@@ -21,11 +21,11 @@
          id="product"
          point="org.eclipse.core.runtime.products">
       <product
-            application="gama.headless.product"
-            name="gama.headless">
+            application="gama.runtime.headless.product"
+            name="msi.gama.headless">
          <property
                name="appName"
-               value="gama.headless">
+               value="msi.gama.headless">
          </property>
       </product>
    </extension>

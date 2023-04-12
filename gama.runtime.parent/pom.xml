@@ -130,6 +130,7 @@
 
 	<modules>
 <module>../gama.runtime.headless</module>
+<module>../gama.feature.runtime</module>
 	</modules>
 
 	<dependencies>

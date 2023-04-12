@@ -1,0 +1,35 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Headless version of GAMA
+Bundle-SymbolicName: gama.runtime.headless;singleton:=true
+Bundle-Version: 2.0.0.qualifier
+Require-Bundle: gama.core,
+ gama.gaml.compiler,
+ org.eclipse.core.runtime,
+ gama.core.dependencies,
+ gaml.extension.traffic,
+ gaml.extension.maths,
+ gaml.extension.database,
+ gaml.entension.network
+Bundle-ActivationPolicy: lazy
+Export-Package: 
+ gama.runtime.headless.common;uses:="gama.runtime.headless.job",
+ gama.runtime.headless.core;
+  uses:="gama.runtime.headless.job,
+   gama.core.kernel.model,
+   gama.core.kernel.experiment,
+   gama.core.kernel.simulation,
+   gaml.core.expressions,
+   gama.core.runtime",
+ gama.runtime.headless.runtime;
+  uses:="org.osgi.framework,
+   gama.runtime.headless.job,
+   gama.core.kernel.model,
+   org.eclipse.equinox.app,
+   gama.core.kernel.experiment",
+ gama.runtime.headless.script;uses:="gama.core.kernel.model,org.w3c.dom",
+ gama.runtime.headless.xml;uses:="gama.runtime.headless.job",
+ gama.runtime.headless.openmole;uses:="gama.core.kernel.model,gama.runtime.headless.core"
+Bundle-ClassPath: .
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: gama.runtime.headless

@@ -23,7 +23,7 @@ import com.google.common.collect.Multimap;
 import com.google.inject.Injector;
 
 import gama.core.annotations.utils.DEBUG;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 import gama.runtime.headless.core.HeadlessSimulationLoader;
 import gaml.core.compilation.GamlCompilationError;
 import gaml.core.compilation.kernel.GamaBundleLoader;

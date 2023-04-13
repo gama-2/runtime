@@ -45,7 +45,7 @@ import gama.core.kernel.experiment.IExperimentPlan;
 import gama.core.kernel.model.IModel;
 import gama.core.runtime.GAMA;
 import gama.core.runtime.concurrent.GamaExecutorService;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 import gama.runtime.headless.batch.ModelLibraryRunner;
 import gama.runtime.headless.batch.ModelLibraryTester;
 import gama.runtime.headless.batch.ModelLibraryValidator;

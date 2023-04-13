@@ -31,7 +31,7 @@ import gama.core.kernel.experiment.ParametersSet;
 import gama.core.kernel.experiment.TestAgent;
 import gama.core.kernel.model.IModel;
 import gama.core.runtime.GAMA;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 import gama.runtime.headless.core.HeadlessSimulationLoader;
 import gaml.core.compilation.GamlCompilationError;
 import gaml.core.compilation.kernel.GamaBundleLoader;

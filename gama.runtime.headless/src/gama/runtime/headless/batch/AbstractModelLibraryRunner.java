@@ -17,7 +17,7 @@ import com.google.inject.Injector;
 
 import gama.core.annotations.utils.DEBUG;
 import gama.core.common.GamlFileExtension;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 
 /**
  * The Class AbstractModelLibraryRunner.

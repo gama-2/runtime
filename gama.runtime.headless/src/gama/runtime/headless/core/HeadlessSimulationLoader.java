@@ -25,8 +25,8 @@ import gama.core.kernel.model.IModel;
 import gama.core.runtime.GAMA;
 import gama.core.runtime.NullGuiHandler;
 import gama.core.runtime.exceptions.GamaRuntimeException;
-import gama.gaml.compiler.gaml.GamlStandaloneSetup;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.GamlStandaloneSetup;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 import gaml.core.compilation.GamlCompilationError;
 import one.util.streamex.StreamEx;
 

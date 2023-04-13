@@ -28,7 +28,7 @@ import gama.core.annotations.utils.DEBUG;
 import gama.core.annotations.utils.STRINGS;
 import gama.core.kernel.experiment.IExperimentPlan;
 import gama.core.kernel.model.IModel;
-import gama.gaml.compiler.gaml.validation.GamlModelBuilder;
+import gama.gaml.compiler.validation.GamlModelBuilder;
 import gama.runtime.headless.core.Experiment;
 import gama.runtime.headless.core.HeadlessSimulationLoader;
 import gaml.core.compilation.GamlCompilationError;
